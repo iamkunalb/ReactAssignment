@@ -1,0 +1,82 @@
+[
+    {
+        "from" : "Auckland",
+        "to" : "Sydney",
+        "price" : 800,
+        "departTime" : "10.00 AM",
+        "arriveTime" : "01.00 PM",
+        "flightNo" : "NZ123",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Auckland",
+        "to" : "Sydney",
+        "price" : 1000,
+        "departTime" : "10.00 AM",
+        "arriveTime" : "01.00 PM",
+        "flightNo" : "QT343",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Auckland",
+        "to" : "Sydney",
+        "price" : 800,
+        "departTime" : "10.00 AM",
+        "arriveTime" : "01.00 PM",
+        "flightNo" : "NZ123",
+        "depatureDate" : "2020-04-18",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Auckland",
+        "to" : "Melbourne",
+        "price" : 900,
+        "departTime" : "9.00 AM",
+        "arriveTime" : "12.00 PM",
+        "flightNo" : "QT223",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Auckland",
+        "to" : "Melbourne",
+        "price" : 500,
+        "departTime" : "9.00 AM",
+        "arriveTime" : "12.00 PM",
+        "flightNo" : "QT223",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Auckland",
+        "to" : "Los Angeles",
+        "price" : 500,
+        "departTime" : "12.00 AM",
+        "arriveTime" : "02.00 PM",
+        "flightNo" : "AA892",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-20"
+    },
+    {
+        "from" : "Sydney",
+        "to" : "Auckland",
+        "price" : 900,
+        "departTime" : "8.00 PM",
+        "arriveTime" : "9.00 PM",
+        "flightNo" : "JT827",
+        "depatureDate" : "2020-04-15",
+        "arrivalDate" : "2020-04-19"
+    },
+    {
+        "from" : "Sydney",
+        "to" : "Auckland",
+        "price" : 900,
+        "departTime" : "8.00 PM",
+        "arriveTime" : "9.00 PM",
+        "flightNo" : "JT827",
+        "depatureDate" : "2020-04-19",
+        "arrivalDate" : "2020-04-29"
+    }
+]

@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  padding-top: 20px;
+  /* float: left; */
+  height: 80px;
+  /* display: inline-block; */
+}
+
+.h3r{
+  float: left;
+  margin-top:0px;
+  margin-bottom:5px
+}
+
+.h3r2{
+  margin-top:0px;
+  width: 300px;
+  margin-bottom:5px
+}
+
+h2{
+  /* display: inline-block; */
+  margin-top: 30px;
+  margin-left: 100px;
+  position: relative;
+}
+
+body{
+  background-image: url('https://images.hdqwalls.com/wallpapers/space-purple-light-blur-minimalism-4k-ex.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 1000px; */
+}
+
+
+.App-header {
+  /* background-image: url('https://images.hdqwalls.com/wallpapers/space-purple-light-blur-minimalism-4k-ex.jpg');
+  background-size: cover; */
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  color: white;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

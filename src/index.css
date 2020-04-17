@@ -1,0 +1,344 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.searchFields{
+  /* text-align: center; */
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+/* .inputLeft{
+  height: 30px;
+  background: none;
+  border: none;
+  color: white;
+  width: 200px;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-right: -5px;
+  padding-left: 10px;
+} */
+
+.inputRight{
+  margin-left:30px;
+  border: none;
+  /* border-radius: 0px 5px 5px 0px; */
+  border-bottom: 1px solid black;
+  background: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  margin-right: 4px;
+  padding-left: 10px;
+}
+/*
+.dateLeft{
+  margin-left:30px;
+  border-radius: 0px 0px 0px 0px;
+  height: 30px;
+  width: 170px;
+  border: none;
+  outline: none;
+  margin-right: -5px;
+  padding-left: 10px;
+} */
+
+.dateRight{
+  margin-left:30px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-right: 4px;
+  padding-left: 10px;
+}
+.refine{
+  /* border: 1px solid black; */
+  background-color: white;
+  /* shadow: 20px; */
+  width: auto;
+  /* margin-left: 25px; */
+  /* margin-top: 20px; */
+  padding-top: 25px;
+  /* padding-right: 25px; */
+  height: auto;
+  /* padding-bottom: 50px; */
+  border: none;
+  /* border-radius: 0px 0px 10px 10px; */
+
+}
+
+.seF{
+  /* border-radius: 0px 0px 5px 5px; */
+  border: none;
+  /* box-shadow: 3px 4px 10px black; */
+  background-color: white;
+  margin-left: 25px;
+  padding-bottom: 50px;
+  /* padding-top: 20px; */
+  width: 400px;
+  /* float: left; */
+  position: absolute;
+}
+
+.price-slider {
+  width: 250px;
+  /* margin: auto; */
+  text-align: left;
+  position: relative;
+  height: 2em;
+  margin-left:50px;
+  /* margin-top:50px; */
+}
+.price-slider svg,
+.price-slider input[type=range] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #1da1f2;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #1da1f2;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #1da1f2;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #1da1f2;
+  border-radius: 1px;
+  box-shadow: none;
+  border: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 0px 0px #000;
+  border: 1px solid #1da1f2;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #a1d0ff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+input[type=range]::-moz-range-thumb {
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 0px 0px #000;
+  border: 1px solid #1da1f2;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #a1d0ff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower,
+input[type=range]::-ms-fill-upper {
+  background: #1da1f2;
+  border-radius: 1px;
+  box-shadow: none;
+  border: 0;
+}
+input[type=range]::-ms-thumb {
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 0px 0px #000;
+  border: 1px solid #1da1f2;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #a1d0ff;
+  cursor: pointer;
+}
+
+/* input[type=number] {
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1.6em;
+  -moz-appearance: textfield;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number]:invalid,
+input[type=number]:out-of-range {
+  border: 2px solid #e60023;
+} */
+
+.fromPrice{
+  color: black;
+  right: 250px;
+  margin-top: 20px;
+  position: absolute;
+  background: none;
+  border: none;
+  text-align: right;
+}
+
+.toPrice{
+  color: black;
+  left: 250px;
+  margin-top: 20px;
+  margin-left: 15px;
+  position: absolute;
+  background: none;
+  border: none;
+  text-align: left;
+}
+
+.search{
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  color: white;
+  height: 30px;
+  width: 330px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  background-color: #28B7E1;
+}
+
+.dropp{
+  margin-left:25px;
+  /* margin-top: 20px; */
+  /* border-radius: 0px 5px 5px 0px; */
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+input, select, textarea, .dropp{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container{
+  margin: auto;
+}
+
+.main{
+  /* border: 1px solid white; */
+  float: left;
+  margin-left: 23%;
+  height: auto;
+  /* margin-right: 25px; */
+  width: 75vw;
+  /* padding-bottom: 20px; */
+  /* position: fixed; */
+}
+
+.track{
+  /* border: 1px solid white; */
+  height: 100px;
+  padding-left: 20px;
+  width: auto;
+  color: white;
+  background-color: rgba(255,255,255,0.4);
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card{
+  /* border: 1px solid white; */
+  height: auto;
+  margin-bottom: 0px;
+  overflow: auto;
+
+  /* margin-right: 25px; */
+  width: auto;
+  /* background-color: white; */
+  /* padding-top: 20px; */
+  padding-bottom: 50px;
+
+
+}
+
+.flights{
+  /* margin-top: 25px; */
+  margin-bottom: -20px;
+  /* border: 1px solid white; */
+  padding-top: 10px;
+  height: 200px;
+  /* margin-right: 20px; */
+  /* margin-left: 20px; */
+  box-shadow: 3px 4px 10px black;
+  width: auto;
+  background-color: rgba(255,255,255,0.4);
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+
+.tab {
+  overflow: hidden;
+  /* border: 1px solid #ccc; */
+  color: white;
+  background-color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 25px;
+  width: 200px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  width: 100px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #28B7E1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border: none;
+}

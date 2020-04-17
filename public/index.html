@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Flight Search Engine</title>
+  </head>
+  <body>
+    <div id="root"></div> <!--Fly emirates header -->
+    <div id="container" class="container">
+
+    </div>
+    <div id="mainThing" class="main">
+      <!-- <div id="track" class="track">
+
+      </div>
+
+      <div id="card" class="card">
+
+      </div> -->
+    </div>
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script>
+    (function() {
+
+      var parent = document.querySelector(".price-slider");
+      if(!parent) return;
+
+      var
+        rangeS = parent.querySelectorAll("input[type=range]"),
+        numberS = parent.querySelectorAll("input[type=number]");
+
+      rangeS.forEach(function(el) {
+        el.oninput = function() {
+          var slide1 = parseFloat(rangeS[0].value),
+                slide2 = parseFloat(rangeS[1].value);
+
+          if (slide1 > slide2) {
+            [slide1, slide2] = [slide2, slide1];
+          }
+
+          numberS[0].value = slide1;
+          numberS[1].value = slide2;
+        }
+      });
+
+      numberS.forEach(function(el) {
+        el.oninput = function() {
+            var number1 = parseFloat(numberS[0].value),
+            number2 = parseFloat(numberS[1].value);
+
+          if (number1 > number2) {
+            var tmp = number1;
+            numberS[0].value = number2;
+            numberS[1].value = tmp;
+          }
+
+          rangeS[0].value = number1;
+          rangeS[1].value = number2;
+
+        }
+      });
+
+    })();
+
+    </script>
+
+    <script type="text/javascript">
+      function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      // document.getElementById("defaultOpen").click();
+    </script>
+
+  </body>
+</html>
