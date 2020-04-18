@@ -252,10 +252,10 @@ input, select, textarea, .dropp{
 .main{
   /* border: 1px solid white; */
   float: left;
-  margin-left: 23%;
+  margin-left: 450px;
   height: auto;
   /* margin-right: 25px; */
-  width: 75vw;
+  width: 65vw;
   /* padding-bottom: 20px; */
   /* position: fixed; */
 }
